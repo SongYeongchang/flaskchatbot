@@ -11,6 +11,7 @@ def index():
 def chatbot():
     req = request.get_json(force=True)
     print('--------')
+    print('sdf')
     print(req)
     # return jsonify(fulfillmentText='챗봇 접속 성공')
     return jsonify(fulfillment_messages=[
